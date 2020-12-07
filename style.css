@@ -1,0 +1,41 @@
+body {
+    background-image: url("leaves.jpg");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rbg(0, 0, 0);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .15em;
+    /* fallback */
+}
+
+.frosted {
+    background-color: rgba(220, 220, 220, .4);
+    backdrop-filter: blur(10px);
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .25rem;
+    /* tutorial: https://webdesign.tutsplus.com/tutorials/how-to-create-a-frosted-glass-effect-in-css--cms-32535 */
+}
+
+#frosted-dark {
+    background-color: rgba(20, 10, 5, .5);
+    border-radius: .25rem;
+    padding: .25rem;
+    padding-left: 1rem;
+}
+
+h1 {
+    color: rgb(248, 238, 238);
+}
+
+p {
+    color: rgb(17, 17, 17);
+    line-height: 1.5em;
+}
